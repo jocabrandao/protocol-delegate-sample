@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C04A05A51F782A9F000E8DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04A05A41F782A9F000E8DB7 /* AppDelegate.swift */; };
-		C04A05A71F782A9F000E8DB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04A05A61F782A9F000E8DB7 /* ViewController.swift */; };
+		C04A05A71F782A9F000E8DB7 /* ColorPresenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04A05A61F782A9F000E8DB7 /* ColorPresenterVC.swift */; };
 		C04A05AA1F782A9F000E8DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04A05A81F782A9F000E8DB7 /* Main.storyboard */; };
 		C04A05AC1F782A9F000E8DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04A05AB1F782A9F000E8DB7 /* Assets.xcassets */; };
 		C04A05AF1F782A9F000E8DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04A05AD1F782A9F000E8DB7 /* LaunchScreen.storyboard */; };
+		C04A05B71F78375B000E8DB7 /* ColorPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04A05B61F78375B000E8DB7 /* ColorPickerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C04A05A11F782A9F000E8DB7 /* protocol-delegate-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "protocol-delegate-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04A05A41F782A9F000E8DB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C04A05A61F782A9F000E8DB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C04A05A61F782A9F000E8DB7 /* ColorPresenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPresenterVC.swift; sourceTree = "<group>"; };
 		C04A05A91F782A9F000E8DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C04A05AB1F782A9F000E8DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04A05AE1F782A9F000E8DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04A05B01F782A9F000E8DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04A05B61F78375B000E8DB7 /* ColorPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		C04A05A31F782A9F000E8DB7 /* protocol-delegate-sample */ = {
 			isa = PBXGroup;
 			children = (
+				C04A05BA1F783E04000E8DB7 /* Views */,
 				C04A05A41F782A9F000E8DB7 /* AppDelegate.swift */,
-				C04A05A61F782A9F000E8DB7 /* ViewController.swift */,
 				C04A05A81F782A9F000E8DB7 /* Main.storyboard */,
 				C04A05AB1F782A9F000E8DB7 /* Assets.xcassets */,
 				C04A05AD1F782A9F000E8DB7 /* LaunchScreen.storyboard */,
 				C04A05B01F782A9F000E8DB7 /* Info.plist */,
 			);
 			path = "protocol-delegate-sample";
+			sourceTree = "<group>";
+		};
+		C04A05BA1F783E04000E8DB7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C04A05A61F782A9F000E8DB7 /* ColorPresenterVC.swift */,
+				C04A05B61F78375B000E8DB7 /* ColorPickerVC.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C04A05A71F782A9F000E8DB7 /* ViewController.swift in Sources */,
+				C04A05A71F782A9F000E8DB7 /* ColorPresenterVC.swift in Sources */,
 				C04A05A51F782A9F000E8DB7 /* AppDelegate.swift in Sources */,
+				C04A05B71F78375B000E8DB7 /* ColorPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
